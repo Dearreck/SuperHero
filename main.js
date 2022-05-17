@@ -16,14 +16,14 @@ function LoadHeroes() {
     // Cargar los datos
     for (let index = 0; index < Heroes.length; index++) {
         const element = `
-        <div id="div_heroe">
+        <div id="div_heroe" class="animated fast">
                 <img src="${Heroes[index].img}"><br>
                 <label id="nombre">${Heroes[index].nombre}</label><br>
                 <label id="bio">${Heroes[index].bio}</label><br>
                 <input type="button" id="btnDescription" value="Descripción" onclick="location.href='app.html?q=${Heroes[index].nombre}'">
 
         </div>`
-        
+
         // Mostrar cada dato
         container.innerHTML += element
     }
