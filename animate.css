@@ -1,0 +1,115 @@
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#div_heroe {
+  border-radius: 5px;
+  border: 1px solid #caf;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+
+  margin: 5px 10px;
+  padding: 15px;
+}
+
+#div_heroe:hover {
+  background-color: #638fec;
+  color: #fff;
+}
+
+#nombre {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  font-weight: bolder;
+  align-self: center;
+}
+
+#bio {
+  width: 95%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#btnDescription {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.15em;
+  align-self: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  color: #001950;
+  background-color: #fff;
+  width: 85%;
+}
+
+#btnDescription:hover {
+  background-color: #001950;
+  color: #fff;
+  cursor: pointer;
+}
+
+img {
+  align-self: center;
+  width: 10em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
