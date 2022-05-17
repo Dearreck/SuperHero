@@ -22,11 +22,8 @@ function LoadHeroes() {
                 <label id="bio">${Heroes[index].bio}</label><br>
                 <input type="button" id="btnDescription" value="Descripción" onclick="location.href='app.html?q=${Heroes[index].nombre}'">
 
-        </div>
-        `
-        //<input type="button" id="btnDescription" value="Descripción" onclick="alert('${Heroes[index].bio}')">
-        //
-
+        </div>`
+        
         // Mostrar cada dato
         container.innerHTML += element
     }
